@@ -19,7 +19,8 @@
 
   <form name="searchForm">
     <h2>Enter Search Term Here:</h2>
-    <input type="text" ng-model="searchTerm" placeholder="themarketiq">
+    <input type="text" ng-model="searchTerm" placeholder="themarketiq" id="search-term"/>
+    <button ng-click="searchItem(searchTerm)" value="Submit" id="submit-button">Search</button>
   </form> 
 
   <div class="results">

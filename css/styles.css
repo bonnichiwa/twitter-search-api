@@ -8,8 +8,21 @@ h2{
   font-size: 1em;
 }
 
-input {
+#search-term {
   padding: 1em;
   font-size: 0.75em;
   font-family: 'Montserrat';
+}
+
+#submit-button {
+  padding: 1.25em;
+  font-family: 'Montserrat';
+  background-color: #00aced;;
+  border: none;
+  color: white;
+  border-radius: 30em;
+}
+
+#submit-button:hover {
+  cursor: pointer;
 }
