@@ -1,1 +1,5 @@
-angular.module('twitterApp', []);
+angular.module('twitterApp', [])
+
+.controller('twitterCtrl', function($scope, $http) {
+  
+})
